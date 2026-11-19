@@ -33,6 +33,8 @@ When relevant profile information has no dedicated section, shorten it and incor
 
 Replace a section only when the user identifies the section and what should replace it. Add a section only when the user specifies what to add and where to place it. If the requested change is unclear, ask for the missing detail before changing the structure.
 
+For a single-column resume, adjust the full page. For a two-column resume, adjust the wider column. If both columns are equally wide, adjust the column containing work or project experience. When the selected area has substantial whitespace at the bottom, modestly increase its body font size and adjust line, paragraph, and section spacing to distribute the content evenly across the available page height. Preserve a clear heading hierarchy and page margins, and keep a one-page resume on one page.
+
 ## Review and compilation
 
 Prepare both `.tex` drafts. Show the originals for review, with a translation into the user's conversation language when it differs from the application language. Keep the meaning and strength of claims aligned across versions and apply the user's edits to both. Wait for explicit approval before compiling.
