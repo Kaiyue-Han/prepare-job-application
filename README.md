@@ -14,7 +14,7 @@ This Codex skill turns a job posting and your candidate profile into a tailored 
 
 1. Invoke `$prepare-job-application` or ask Codex to prepare your application materials. Include the job posting and tell Codex where to find your profile and any custom templates.
 2. Review the drafts in the application language. If it differs from your conversation language, review the accompanying translation as well.
-3. Approve the drafts for compilation. The skill prefers Codex's built-in LaTeX compiler and uses an installed compatible compiler when needed for PDF export. If compilation or export is unavailable, you still receive the `.tex` sources.
+3. Approve the drafts for compilation. The skill uses a compatible locally installed LaTeX compiler when available and falls back to Codex's built-in LaTeX compiler otherwise. If compilation or export is unavailable, you still receive the `.tex` sources.
 
 Keep completed profiles and application files outside any public repository.
 

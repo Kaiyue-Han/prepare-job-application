@@ -39,6 +39,6 @@ For a single-column resume, adjust the full page. For a two-column resume, adjus
 
 Prepare both `.tex` drafts. Show the originals for review, with a translation into the user's conversation language when it differs from the application language. Keep the meaning and strength of claims aligned across versions and apply the user's edits to both. Wait for explicit approval before compiling.
 
-Prefer the built-in Codex LaTeX compiler when available. Use a compatible installed compiler when the built-in compiler is unavailable or a PDF cannot be exported through it. Get the user's consent before installing software or sending documents to an external compiler.
+Use a compatible locally installed LaTeX compiler when available. If none is available, use Codex's built-in LaTeX compiler. Get the user's consent before installing software or sending documents to an external compiler.
 
 Check that both PDFs open and render correctly, that the cover letter is one page, and that any stated upload limits are met. If compilation reveals a need for substantive wording changes, show the revisions for approval before recompiling. Deliver both LaTeX sources with their required local assets and both PDFs. If compilation or export is unavailable, deliver the sources and explain the blocker.
