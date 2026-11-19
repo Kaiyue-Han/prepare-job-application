@@ -40,7 +40,7 @@ Read the candidate's profile and follow their standing application preferences. 
 
 Record newly confirmed facts or standing preferences in the candidate's writable profile when it is available. Keep entries accurate, avoid duplication, resolve contradictions with the candidate, and retain relevant sources. If the profile cannot be updated, summarize the confirmed changes for the candidate.
 
-For each document, use the candidate's chosen LaTeX template or the corresponding default in `templates/`. Create job-specific copies and preserve required dependencies and layout. Replace stale job details and treat template examples as placeholders.
+For each document, use the candidate's chosen LaTeX template or the corresponding default in `templates/`. Create job-specific copies and preserve required dependencies and layout. Replace stale job details and treat template examples as placeholders. The default resume bundles a sample portrait for template previews. Remove its portrait block unless the candidate supplies and approves a photo for this application.
 
 ## Tailor the materials
 

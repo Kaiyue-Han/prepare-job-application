@@ -2,13 +2,13 @@
 
 These notices apply to the bundled LaTeX templates listed below.
 
-## Resume(CV)
+## Clean CV Template
 
-- **Files:** `templates/resume.tex`, `templates/TLCresume.sty`, and the adapted fragments in `templates/sections/`.
-- **Source:** [Resume(CV) by Meng (mengisok)](https://www.overleaf.com/latex/templates/resume-cv/fbwkrgfrcsby).
-- **Upstream attribution:** Meng adapted [resume template (CJK support) by gobborg and Timmy Chan](https://www.overleaf.com/latex/templates/resume-template-cjk-support/yvmsdbdwmyhc), which derives from [data-science-tech-resume-template by Timmy Chan](https://www.overleaf.com/latex/templates/data-science-tech-resume-template/zcdmpfxrzjhv). The original attribution and modification history are retained in the LaTeX sources.
-- **License:** [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/legalcode).
-- **Changes in this distribution:** The contact header was simplified. The education, work experience, project, and skills fragments were rewritten with generic English placeholders for use with a candidate profile.
+- **Files:** `templates/resume.tex` and `templates/portait_template.jpg`.
+- **Source:** [Clean CV Template by Bennet B.](https://www.overleaf.com/latex/templates/clean-cv-template/rcqjkxnfsmnz).
+- **Upstream attribution:** Based on [Modern CV/Resume Template by Habib Semouma](https://www.overleaf.com/latex/templates/modern-cv-slash-resume-template/vjrqdkpjckwj).
+- **License:** The source identifies the template as CC0 / public domain and includes a permission notice. The complete original notice is retained in `templates/resume.tex`.
+- **Changes in this distribution:** Renamed the LaTeX entry point to `resume.tex` and fixed the column and heading widths, and removed the empty trailing page.
 
 ## Simplest A4 Letter
 
