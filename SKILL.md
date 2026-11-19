@@ -52,6 +52,8 @@ Draft two cover-letter options before asking the user to choose. Both must empha
 
 ## Resume structure
 
+A template field alone does not require disclosure. When a verified detail could materially weaken the application and the employer does not require it, omit it if it adds little value or the candidate's profile marks it for omission. Ask before including it when the trade-off is unclear, such as a low grade that may be needed to explain an academic record. Follow the candidate's confirmed disclosure preferences. If the employer explicitly asks for the information or it affects eligibility, explain the requirement and confirm how to handle it before finalizing. Keep all statements accurate and avoid misleading omissions.
+
 Use the selected resume template as the source of truth for section names, order, and placement. Populate its existing sections with relevant, verified information from the candidate profile. The default structural change is deletion: if an existing section has no usable content, remove its heading, content or import, and section-specific spacing. Keep definitions and layout shared by the remaining sections.
 
 When relevant profile information has no dedicated section, shorten it and incorporate it into an appropriate existing entry or section. For example, include a scholarship as a brief note under its degree in Education, or a project award under the project it recognizes. Omit information that has no natural fit. Do not create an extra heading or subsection for it.
