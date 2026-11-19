@@ -1,13 +1,36 @@
 ---
 name: prepare-job-application
-description: Prepare a tailored resume and cover letter from a job posting, a candidate profile, and LaTeX templates.
+description: Prepare a tailored resume and cover letter from a job posting or existing job analysis, a candidate profile, and LaTeX templates.
 ---
 
 # Prepare a job application
 
+## Set the output location
+
+At invocation, establish where to put this application's files. Use the folder the user already designated, or propose creating a folder named `<Company>_<Role>` in the user's application workspace once the company and role are known. If the choice is open, ask whether to use the proposed folder, a folder the user specifies, or individual downloads. Explain that the folder holds the posting text or translation, the analysis report, the resume, the cover letters, and their generated assets. Use filename-safe names and avoid overwriting unrelated files or previously approved materials.
+
+Once the user designates a folder or agrees to create one, save every application artifact there as it is produced and tell the user where it was saved. Include any generated translations and, for email applications, save the email draft as a text file as well. If the user declines both folder options, provide individual downloadable files as they are produced without creating a dedicated application folder.
+
+## Capture the posting
+
+Accept a link, pasted text, image, or document attachment. If a link fails, use the employer, role, and job ID when available to find the same public posting. If the details remain uncertain, request the text or a screenshot.
+
+- For a webpage, pasted text, or image, transcribe the posting text faithfully. Adjust formatting for readability while preserving wording, order, and meaning. Do not add, omit, or rewrite content. Flag unreadable passages outside the transcription and ask for a clearer source if needed. Output the original-language text and a faithful translation into the user's language when the languages differ. If they match, a single file serves both purposes.
+- For an existing document such as a PDF or Word file, use that file as the original and generate only the user-language version. When the document is already in the user's language, use the supplied original without generating a duplicate.
+- Use language suffixes such as `posting_en.md` and `posting_zh-CN.md`. Keep external research and analysis out of the transcription and translation.
+
 ## Analyze the posting
 
-Read the supplied posting, whether it is a link, pasted text, or attachment. If a link fails, use the employer, role, and job ID when available to find the same public posting. If the details remain uncertain, request the text or a screenshot. Identify the employer, role, submission channel, and required materials. First show the user a Markdown breakdown of explicit and inferred requirements. Separate mandatory qualifications from nice-to-haves within the explicit requirements and give a short basis for each inference.
+Identify the employer, role, seniority, submission channel, application language, and required materials. Analyze the role before drafting materials.
+
+1. Read the posting closely. Identify the responsibilities, skills, and qualifications it states. Distinguish explicit mandatory requirements, explicit nice-to-haves, and inferred requirements. Where an explicit requirement lacks a priority, preserve that uncertainty.
+2. Research the employer's business, products, and relevant teams using public sources. Connect that context to stated responsibilities and explain likely applications of the skills. Add newly inferred requirements with their rationale.
+3. Interpret stated proficiency expectations and seniority signals. When the level is unclear, look up comparable roles to estimate the depth of practical knowledge expected. Distinguish stated levels from benchmarks and explain the evidence.
+4. Search for comparable postings at similar seniority and for public accounts from employees, practitioners, or relevant forums. Use them to refine likely requirements, use cases, and proficiency expectations. Link the sources used and make clear when findings are contextual, anecdotal, or uncertain. Keep each inference tied to its evidence and attribute explicit requirements only to the target posting.
+
+Produce `analysis_<language>.md` in the user's language as soon as the analysis is ready. Include the source, role and application details, required capabilities, likely use cases, expected proficiency, and the basis for each inference. Make it detailed enough for later interview preparation. Save or deliver it before drafting and give a short summary in the conversation. If the user only requests analysis, stop there.
+
+If the user supplies an existing analysis and requests application materials, reuse it and proceed to matching. If source material is available, capture it as above and consult it to fill material gaps. Keep explicit and inferred requirements distinct. Ask only about missing details that materially affect the application and cannot be verified. Include the supplied analysis in the application folder if one is in use, preserving its original if updates are needed.
 
 Use the employer's specified application language or, if none is specified, the posting's primary language. Ask if conflicting evidence makes the language unclear. Use the resulting language for the resume, cover letter, and any application email.
 
@@ -17,13 +40,15 @@ Read the candidate's profile and follow their standing application preferences. 
 
 Record newly confirmed facts or standing preferences in the candidate's writable profile when it is available. Keep entries accurate, avoid duplication, resolve contradictions with the candidate, and retain relevant sources. If the profile cannot be updated, summarize the confirmed changes for the candidate.
 
-For each document, use the candidate's chosen LaTeX template or the corresponding default in `templates/`. Create job-specific copies in a separate output folder and preserve required dependencies and layout. Replace stale job details and treat template examples as placeholders.
+For each document, use the candidate's chosen LaTeX template or the corresponding default in `templates/`. Create job-specific copies and preserve required dependencies and layout. Replace stale job details and treat template examples as placeholders.
 
 ## Tailor the materials
 
 Use strong, evidenced matches to explicit and inferred requirements in the resume. Develop the most relevant examples in the cover letter. When a required skill is at a beginner level, list it only if backed by practical use and describe it at that level. If an important gap should be addressed, state it accurately and express a genuine willingness to learn. Never invent experience, skills, outcomes, or metrics or overstate proficiency.
 
 Lead with verified skills that the posting explicitly names, both in the main skills list and within each relevant project's technology stack. Keep the cover letter to one page. Explain interest in specific aspects of the role in a polite, natural voice. Expand on relevant strengths and motivation without repeating resume bullets. If applying by email, draft a concise, formal subject and body in the conversation and describe the actual attachments accurately.
+
+Draft two cover-letter options before asking the user to choose. Both must emphasize the same strongest evidenced matches to the role. Vary the wording, tone, or narrative approach, and use different secondary strengths when useful. Present both options for review and let the user select one or combine elements. After the choice, record the user's stated or confirmed preference under the cover-letter preferences in their writable profile. If the user gives no reason, record the selected option's observable characteristics as a choice for this application without inferring a standing preference.
 
 ## Resume structure
 
@@ -37,7 +62,7 @@ For a single-column resume, adjust the full page. For a two-column resume, adjus
 
 ## Review and compilation
 
-Prepare both `.tex` drafts. Show the originals for review, with a translation into the user's conversation language when it differs from the application language. Keep the meaning and strength of claims aligned across versions and apply the user's edits to both. Wait for explicit approval before compiling.
+Prepare the resume and both cover-letter options as `.tex` drafts. Name the resume `CV_<CandidateName>_<Company>.tex` and use the same stem for its PDF. For cover letters use `Anschreiben__<CandidateName>_<Company>` for German, `CoverLetter__<CandidateName>_<Company>` for English, or a clear document label in the application language. Add `_v1` and `_v2` to the option drafts. Use the unsuffixed stem for the selected final letter's `.tex` and PDF. Use the candidate name from the profile and filesystem-safe spellings. Show the originals for review, with a translation into the user's conversation language when it differs from the application language. Keep the meaning and strength of claims aligned across versions and apply the user's edits to both. Wait until the user has chosen a cover letter and explicitly approved the final resume and letter before compiling them.
 
 Use a compatible locally installed LaTeX compiler when available. If none is available, use Codex's built-in LaTeX compiler. Get the user's consent before installing software or sending documents to an external compiler.
 
