@@ -1,6 +1,6 @@
 # Job Application Skill
 
-[简体中文](README.zh-CN.md)
+[简体中文](README.zh-CN.md) · [Deutsch](README.de.md)
 
 This Codex skill turns a job posting and your candidate profile into a tailored LaTeX resume and cover letter. It also drafts a concise email when the employer accepts applications by email.
 

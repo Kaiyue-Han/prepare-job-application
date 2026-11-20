@@ -1,6 +1,6 @@
 # 求职申请材料 Skill
 
-[English](README.md)
+[English](README.md) · [Deutsch](README.de.md)
 
 这个 Codex Skill 根据岗位描述和个人档案生成有针对性的 LaTeX 简历与动机信。需要通过邮箱申请时，它也会起草简短正式的邮件。
 
