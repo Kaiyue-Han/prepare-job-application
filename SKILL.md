@@ -1,13 +1,17 @@
 ---
 name: prepare-job-application
-description: Prepare a tailored resume, a cover letter, or both from a job posting or existing job analysis, a candidate profile, and LaTeX templates.
+description: Analyze a job posting and prepare a tailored resume and cover letter. Deliver any requested subset or the full package by default.
 ---
 
 # Prepare a job application
 
+## Determine which deliverables to produce
+
+If the user specifies deliverables, produce only the requested subset of the job analysis file, resume, and cover letter. If the user does not specify a subset, produce all three. Reuse a supplied analysis and consult the posting to fill material gaps as needed. When the analysis file is outside the requested subset, use the analysis to inform drafting without delivering it as a separate file. Apply the existing review and approval process to every requested resume or cover letter.
+
 ## Set the output location
 
-At invocation, establish where to put this application's files. Use the folder the user already designated, or propose creating a folder named `<Company>_<Role>` in the user's application workspace once the company and role are known. If the choice is open, ask whether to use the proposed folder, a folder the user specifies, or individual downloads. Explain that the folder holds the posting text or translation, the analysis report, the resume, the cover letters, and their generated assets. Use filename-safe names and avoid overwriting unrelated files or previously approved materials.
+At invocation, establish where to put this application's files. Use the folder the user already designated, or propose creating a folder named `<Company>_<Role>` in the user's application workspace once the company and role are known. If the choice is open, ask whether to use the proposed folder, a folder the user specifies, or individual downloads. Explain which requested deliverables and supporting files will go in the folder. Use filename-safe names and avoid overwriting unrelated files or previously approved materials.
 
 Once the user designates a folder or agrees to create one, save every application artifact there as it is produced and tell the user where it was saved. Include any generated translations and, for email applications, save the email draft as a text file as well. If the user declines both folder options, provide individual downloadable files as they are produced without creating a dedicated application folder.
 
@@ -28,7 +32,7 @@ Identify the employer, role, seniority, submission channel, application language
 3. Interpret stated proficiency expectations and seniority signals. When the level is unclear, look up comparable roles to estimate the depth of practical knowledge expected. Distinguish stated levels from benchmarks and explain the evidence.
 4. Search for comparable postings at similar seniority and for public accounts from employees, practitioners, or relevant forums. Use them to refine likely requirements, use cases, and proficiency expectations. Link the sources used and make clear when findings are contextual, anecdotal, or uncertain. Keep each inference tied to its evidence and attribute explicit requirements only to the target posting.
 
-Produce `analysis_<language>.md` in the user's language as soon as the analysis is ready. Include the source, role and application details, required capabilities, likely use cases, expected proficiency, and the basis for each inference. Make it detailed enough for later interview preparation. Save or deliver it before drafting and give a short summary in the conversation. If the user only requests analysis, stop there.
+When the analysis file is in scope, produce `analysis_<language>.md` in the user's language as soon as the analysis is ready. Include the source, role and application details, required capabilities, likely use cases, expected proficiency, and the basis for each inference. Make it detailed enough for later interview preparation. When producing the analysis file, save or deliver it before drafting and give a short summary in the conversation. If the user only requests analysis, stop there.
 
 If the user supplies an existing analysis and requests application materials, reuse it and proceed to matching. If source material is available, capture it as above and consult it to fill material gaps. Keep explicit and inferred requirements distinct. Ask only about missing details that materially affect the application and cannot be verified. Include the supplied analysis in the application folder if one is in use, preserving its original if updates are needed.
 

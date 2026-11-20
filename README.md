@@ -16,10 +16,12 @@ You can drag files into the chat or provide local paths. If sharing a path, keep
 
 ## How to use it
 
+Ask for only the job analysis file, resume, cover letter, or any combination. If you do not specify which deliverables you want, the skill prepares all three.
+
 1. Invoke `$prepare-job-application` or ask Codex to prepare your application materials. Include the posting or existing analysis. Before your first resume, Codex checks for your profile and relevant supporting materials, then asks about optional templates and a photo if needed. It reuses your private working profile for later applications.
 2. Choose a folder for the posting, analysis, and application files, or receive individual downloads. Codex proposes a folder named for the company and role.
-3. Review the Markdown analysis, the tailored resume, and two cover-letter options. Select or combine the options. Review the translations if the application language differs from your conversation language.
-4. Approve the resume and chosen cover letter for compilation. The skill uses a compatible locally installed LaTeX compiler when available and falls back to Codex's built-in LaTeX compiler otherwise. If compilation or export is unavailable, you still receive the `.tex` sources.
+3. Review the requested deliverables. If you requested a cover letter, select or combine the two options. Review the translations if the application language differs from your conversation language.
+4. Approve the requested resume or selected cover letter for compilation, as applicable. The skill uses a compatible locally installed LaTeX compiler when available and falls back to Codex's built-in LaTeX compiler otherwise. If compilation or export is unavailable, you still receive the `.tex` sources.
 
 Keep completed profiles and application files outside any public repository.
 
