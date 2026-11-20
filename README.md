@@ -7,12 +7,16 @@ This Codex skill turns a job posting and your candidate profile into a tailored 
 ## What to provide
 
 - **A job posting** as a link, pasted text, or attachment. You can also provide an existing job analysis and continue directly to drafting.
-- **Your candidate profile.** Copy [profile.template.md](profile.template.md) to a private `profile.md`, fill in the sections that apply to you, and upload it or share its local path with Codex. Add relevant project notes or other evidence if helpful.
+- **Your candidate profile.** Copy [profile.template.md](profile.template.md) to a private `profile.md`, fill in the sections that apply to you, and upload it or share its local path with Codex. Add relevant reports, portfolios, or original project or work files if helpful to fill gaps.
 - **Optional custom templates.** Provide a resume template, a cover letter template, or both, including any referenced sections, styles, images, or fonts. Each custom template takes precedence over its bundled counterpart.
+
+- **Resume photo (optional).** Supply a photo and confirm you want to use it in the application.
+
+You can drag files into the chat or provide local paths. If sharing a path, keep the original file or a backup. The skill uses private working copies for profile updates and generates application-specific LaTeX files from template copies.
 
 ## How to use it
 
-1. Invoke `$prepare-job-application` or ask Codex to prepare your application materials. Include the job posting and tell Codex where to find your profile and any custom templates.
+1. Invoke `$prepare-job-application` or ask Codex to prepare your application materials. Include the posting or existing analysis. Before your first resume, Codex checks for your profile and relevant supporting materials, then asks about optional templates and a photo if needed. It reuses your private working profile for later applications.
 2. Choose a folder for the posting, analysis, and application files, or receive individual downloads. Codex proposes a folder named for the company and role.
 3. Review the Markdown analysis, the tailored resume, and two cover-letter options. Select or combine the options. Review the translations if the application language differs from your conversation language.
 4. Approve the resume and chosen cover letter for compilation. The skill uses a compatible locally installed LaTeX compiler when available and falls back to Codex's built-in LaTeX compiler otherwise. If compilation or export is unavailable, you still receive the `.tex` sources.
