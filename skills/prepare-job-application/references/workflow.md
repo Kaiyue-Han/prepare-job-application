@@ -1,0 +1,19 @@
+# Shared application workflow
+
+## Set the output location
+
+At invocation, establish where to put this application's files. Use the folder the user already designated, or propose creating a folder named `<Company>_<Role>` in the user's application workspace once the company and role are known. If the choice is open, ask whether to use the proposed folder, a folder the user specifies, or individual downloads. Explain which requested deliverables and supporting files will go in the folder. Use filename-safe names and avoid overwriting unrelated files or previously approved materials.
+
+Once the user designates a folder or agrees to create one, save every application artifact there as it is produced and tell the user where it was saved. Include any generated translations and, for email applications, save the email draft as a text file as well. If the user declines both folder options, provide individual downloadable files as they are produced without creating a dedicated application folder. Stage any needed supporting files in a writable location in that case.
+
+## Resolve dependencies for a requested document
+
+- The resume needs an analysis of the target posting. The cover letter needs both the target posting analysis and a resume suitable for that application. A previously generated resume may come from another application if the candidate confirms it is suitable and its facts can be checked against available evidence.
+- First check the designated application project folder for missing inputs. Inspect plausible reports and resume sources or PDFs, including custom filenames. Check that a report identifies the target role and employer and that a resume identifies the candidate. If multiple versions could work, identify the options clearly. Ask which files the user permits you to use, using their names or paths. Wait for the answer before relying on any discovered file. A file explicitly supplied for this task, or produced and passed to a later stage in the current run, is already available for that purpose.
+- For any input the user declines or that the folder does not contain, ask whether they have another existing file. Accept a path or upload, verify that it can serve as the dependency, and preserve supplied originals when saving them into the application folder. If the user says no suitable file is available or already asks you to generate that input, run the corresponding skill. Resolve only missing inputs. For a missing analysis, invoke [`analyze-job-posting`](../../analyze-job-posting/SKILL.md). For a missing resume, invoke [`generate-job-resume`](../../generate-job-resume/SKILL.md) with the resolved analysis, folder, and source. When the resume is a dependency only, request a supporting draft. If required source material is missing, ask for the posting or candidate evidence before proceeding.
+- When a posting is provided or needed for research, invoke the [posting capture stage](../../analyze-job-posting/SKILL.md#capture-the-posting) before using it to fill analysis gaps or to draft. Reuse an archive approved for this application. When reusing an approved report, follow [the existing-analysis instructions](../../analyze-job-posting/SKILL.md#reuse-an-existing-analysis) to fill material gaps. When the report is sufficient and no posting is supplied, continue from the report.
+- Save generated dependencies locally for reuse. Treat them as supporting files if the user asked for just the downstream document.
+
+## Invoke a stage
+
+Open the named skill's `SKILL.md` and follow its instructions in the same conversation. Carry forward established paths, accepted versions, application language, the requested output, and whether a stage is providing a dependency only. Each stage returns the usable file paths and any review decisions the next stage needs. Reuse inputs already established in the current run.
