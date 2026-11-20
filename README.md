@@ -16,7 +16,7 @@ You can drag files into the chat or provide local paths. If sharing a path, keep
 
 ## How to use it
 
-Ask for only the job analysis file, resume, cover letter, or any combination. If you do not specify which deliverables you want, the skill prepares all three.
+Ask for the original job posting, job analysis file, resume, cover letter, or any combination. If you do not specify which deliverables you want, the skill prepares all four.
 
 1. Invoke `$prepare-job-application` or ask Codex to prepare your application materials. Include the posting or existing analysis. Before your first resume, Codex checks for your profile and relevant supporting materials, then asks about optional templates and a photo if needed. It reuses your private working profile for later applications.
 2. Choose a folder for the posting, analysis, and application files, or receive individual downloads. Codex proposes a folder named for the company and role.

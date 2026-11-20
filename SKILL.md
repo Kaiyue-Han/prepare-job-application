@@ -1,13 +1,13 @@
 ---
 name: prepare-job-application
-description: Analyze a job posting and prepare a tailored resume and cover letter. Deliver any requested subset or the full package by default.
+description: Capture the original job posting, analyze it, and prepare a tailored resume and cover letter. Deliver any requested subset or the full package by default.
 ---
 
 # Prepare a job application
 
 ## Determine which deliverables to produce
 
-If the user specifies deliverables, produce only the requested subset of the job analysis file, resume, and cover letter. If the user does not specify a subset, produce all three. Reuse a supplied analysis and consult the posting to fill material gaps as needed. When the analysis file is outside the requested subset, use the analysis to inform drafting without delivering it as a separate file. Apply the existing review and approval process to every requested resume or cover letter.
+If the user specifies deliverables, produce only the requested subset of the original job posting, job analysis file, resume, and cover letter. If the user does not specify a subset, produce all four. Reuse a supplied analysis and consult the posting to fill material gaps as needed. When the analysis file is outside the requested subset, use the analysis to inform drafting without delivering it as a separate file. Apply the existing review and approval process to every requested resume or cover letter.
 
 ## Set the output location
 
@@ -22,6 +22,8 @@ Accept a link, pasted text, image, or document attachment. If a link fails, use 
 - For a webpage, pasted text, or image, transcribe the posting text faithfully. Adjust formatting for readability while preserving wording, order, and meaning. Do not add, omit, or rewrite content. Flag unreadable passages outside the transcription and ask for a clearer source if needed. Output the original-language text and a faithful translation into the user's language when the languages differ. If they match, a single file serves both purposes.
 - For an existing document such as a PDF or Word file, use that file as the original and generate only the user-language version. When the document is already in the user's language, use the supplied original without generating a duplicate.
 - Use language suffixes such as `posting_en.md` and `posting_zh-CN.md`. Keep external research and analysis out of the transcription and translation.
+
+When the original posting is in scope, deliver it with any applicable translation under the rules above. If it is the only requested deliverable, stop after capture. Otherwise, if the original posting is outside the requested scope, use it as source material without delivering a separate posting file.
 
 ## Analyze the posting
 
