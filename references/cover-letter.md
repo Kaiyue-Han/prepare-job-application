@@ -2,11 +2,15 @@
 
 Use this guide for cover letters in any application language. Follow the employer's instructions, the chosen template, and local and submission-channel conventions. Aim for one readable page unless the employer specifies otherwise. If a separate motivation statement is requested, use its prompts, purpose, and length.
 
+## Identify the role and employer details
+
+Use the posting analysis and employer research to identify one specific responsibility the role would involve and the business, product, team, or audience that responsibility serves at this employer. Verify the connection in the available sources. Use these details to develop possible openings with the candidate.
+
 ## Confirm the candidate's motivation
 
-Read the posting analysis and working profile. Present the five categories below in the candidate's conversation language and ask them to select one or two. Then present the subcategories for each selected category and ask them to choose one or two within each. **Whenever presenting subcategories to the candidate, display each name with its plain-language definition.** Accept their own wording and use the definitions to distinguish closely related choices.
+Read the posting analysis and working profile. If the profile or conversation already contains the candidate's confirmed reason for this specific application, use it directly. Otherwise, present the five categories below in the candidate's conversation language and ask them to select one or two. Then present the subcategories for each selected category and ask them to choose one or two within each. **Whenever presenting subcategories to the candidate, display each name with its plain-language definition.** Accept their own wording and use the definitions to distinguish closely related choices.
 
-For the selected motives, use confirmed profile details to establish what the candidate cares about and where that interest came from. If needed, ask for the experience, observation, or interaction that made it matter. Choose a confirmed reason that connects naturally to real work at the employer. Practical fit can be mentioned where it helps explain the application. Record newly confirmed facts and preferences in the private working profile, scoped to the application where appropriate.
+For the selected motives, use confirmed profile details to establish what the candidate cares about and where that interest came from. If needed, ask for the experience, observation, or interaction that made it matter. Choose a confirmed reason that connects naturally to real work at the employer. When the candidate has selected categories and subcategories, offer two or three plausible directions tied to the role and employer details. Ask the candidate to choose, revise, or provide a reason in their own words. Treat the directions as prompts until confirmed. Use an experience in the opening only if the candidate confirms that it explains their interest. Practical fit can be mentioned where it helps explain the application. Record newly confirmed facts and preferences in the private working profile, scoped to the application where appropriate.
 
 | Category | Subcategory | Definition |
 | --- | --- | --- |
@@ -37,16 +41,20 @@ For the selected motives, use confirmed profile details to establish what the ca
 | --- | --- |
 | Header and subject | Include contact information, employer and recipient details, and date where the format calls for them. Use the official employer name, exact role title, and any posting reference number. |
 | Salutation | Prefer a verified named contact and check spelling and title. If unavailable, choose a conventional greeting for the application language and audience. |
-| Opening | Explain what specifically draws the candidate to the role or employer and what sparked that interest. In a few sentences, connect a confirmed personal motive to an actual responsibility, audience, product, practice, or initiative. |
-| Body | Answer what qualifications and experience the candidate brings, what personal strengths distinguish them, and what concrete benefit they can offer the employer. Select the strongest two to four matches and use relevant examples. Name the situation, the candidate's own actions, and the verified result or deliverable, then connect the example to the target work. |
+| Opening | State why the candidate wants to do a specific part of this role at this employer. Connect their confirmed reason to the actual responsibility and its context in the employer's work. |
+| Body | Focus on one or two relevant personal strengths, backed by experience, and explain what each could help the employer do. Use a brief verified example to substantiate the strength. Explain the judgment, capability, or potential contribution that the resume evidence supports. |
 | Closing | State the work the candidate hopes to contribute to and welcome an interview. Use the candidate's confirmed earliest start date when relevant. If the employer specifies a date or window, confirm that the candidate can meet it. Include internship timing and duration as applicable. Include salary expectations or relocation willingness when requested, using applicable confirmed profile details or asking the candidate if needed. |
 | Sign-off | Use the relevant language and channel conventions for the closing phrase, name, signature, and enclosure notation. |
 
 For a speculative application, identify the target function and recipient, research what the employer needs, and explain how the candidate could contribute. Describe inferred needs as such.
 
+## Choose the strengths before choosing the examples
+
+Compare the role with the working profile and the resume, if available. Consider two to four possible matches if helpful, and choose one or two strengths that best distinguish this candidate for this role. For each, establish what the strength is, which verified fact supports it, and how it could help with a specific responsibility at the employer. For example, building an application that produces data and then analyzing those data can support a strength in connecting data collection decisions to downstream analysis needs. The letter can make that connection with a brief example. Keep implementation steps, technology lists, and metrics in the resume unless a detail materially supports the point.
+
 ## Fill evidence gaps only when necessary
 
-Use the profile and evidence already available. When they support the letter, proceed without asking further experience questions. If a material gap remains, ask a focused question. Follow up only as needed to support a material claim.
+Use the profile and evidence already available. When they support the letter, proceed without asking further experience questions. If a material gap remains, ask a focused question. When the experience is documented but the candidate's individual strength is unclear, ask which decision, responsibility, or result best shows what they did well. Follow up only as needed to support a material claim.
 
 - With relevant work or internship experience, ask what the candidate owned, which tools or methods they used, who they worked with, and what they delivered or achieved.
 - For a career change, ask where the candidate performed a comparable task and which target responsibility the experience supports.
@@ -55,9 +63,11 @@ Use the profile and evidence already available. When they support the letter, pr
 
 ## Draft and check both options
 
+Before drafting, formulate two working sentences. One states why the candidate wants this responsibility at this employer. The other states which personal strength they can bring, what supports it, and how it helps with the work. Clarify only what remains uncertain and record newly confirmed details in the working profile. Use the two sentences to guide the opening and body. They can draw on different experiences.
+
 Use the same strongest verified evidence in both options. Vary tone, narrative, or secondary strengths. For example, a candidate who improved sign-up information while volunteering could open one version with the role's public-information task and the other with what the volunteer experience taught them about accessible information.
 
-Check that the opening states a genuine, specific motive, each principal claim has evidence, and the letter explains how selected experiences relate to the role. Use concise sentences and the candidate's own examples. Check the employer name, contact, title, reference number, confirmed dates, interview invitation, signature and enclosure conventions, readability, and removal of placeholders.
+Compare each draft with the resume if available. Check that the opening explains the candidate's confirmed interest in the role at this employer and that the body explains what a personal strength lets them contribute. Condense passages that only repeat resume details. Use concise sentences and the candidate's own examples. Check the employer name, contact, title, reference number, confirmed dates, interview invitation, signature and enclosure conventions, readability, and removal of placeholders.
 
 ## Sources
 
