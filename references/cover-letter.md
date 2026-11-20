@@ -8,7 +8,11 @@ Use the posting analysis and employer research to identify one specific responsi
 
 ## Confirm the candidate's motivation
 
-Read the posting analysis and working profile. If the profile or conversation already contains the candidate's confirmed reason for this specific application, use it directly. Otherwise, present the five categories below in the candidate's conversation language and ask them to select one or two. Then present the subcategories for each selected category and ask them to choose one or two within each. **Whenever presenting subcategories to the candidate, display each name with its plain-language definition.** Accept their own wording and use the definitions to distinguish closely related choices.
+Read the posting analysis and working profile. If the profile or conversation already contains the candidate's confirmed reason for this specific application, use it directly. Otherwise, first invite the candidate to describe their interest in their own words, explicitly accepting a few words, a short phrase, or an informal sentence. Tell them this input is very important: even a few words can make the opening vivid and personal; polished writing is unnecessary. For example, in Chinese: “你为什么想申请这份工作？用自己的话说几个字、一个短语或一句话就可以，不用写完整或正式。这一点很重要，哪怕只有几个字，也能让动机信的开头特别生动。”
+
+Map their description to the closest motivation categories and subcategories in this guide, then shape it into a polished opening connected to verified responsibilities and employer context. Preserve the candidate's meaning; do not invent a formative story or stronger motivation than they expressed. Do not require category selection if their own words already provide a usable reason. Ask a focused follow-up only if ambiguity materially affects the opening.
+
+If the candidate wants help finding a reason or cannot yet describe one, offer the five categories below in their conversation language and invite them to select one or two. Then offer the subcategories for each selected category, inviting one or two choices within each. **Whenever presenting subcategories to the candidate, display each name with its plain-language definition.** Their own words remain welcome throughout.
 
 For the selected motives, use confirmed profile details to establish what the candidate cares about and where that interest came from. If needed, ask for the experience, observation, or interaction that made it matter. Choose a confirmed reason that connects naturally to real work at the employer. When the candidate has selected categories and subcategories, offer two or three plausible directions tied to the role and employer details. Ask the candidate to choose, revise, or provide a reason in their own words. Treat the directions as prompts until confirmed. Use an experience in the opening only if the candidate confirms that it explains their interest. Practical fit can be mentioned where it helps explain the application. Record newly confirmed facts and preferences in the private working profile, scoped to the application where appropriate.
 
@@ -52,6 +56,8 @@ For a speculative application, identify the target function and recipient, resea
 
 Compare the role with the working profile and the resume, if available. Consider two to four possible matches if helpful, and choose one or two strengths that best distinguish this candidate for this role. For each, establish what the strength is, which verified fact supports it, and how it could help with a specific responsibility at the employer. For example, building an application that produces data and then analyzing those data can support a strength in connecting data collection decisions to downstream analysis needs. The letter can make that connection with a brief example. Keep implementation steps, technology lists, and metrics in the resume unless a detail materially supports the point.
 
+Use at most one or two distinct experiences or concrete examples in total per letter to support these strengths. Include an example only when it strongly supports a specific role requirement; omit weakly related projects even if they are impressive. One example may support more than one strength. Lead with the capability and its relevance, using only the evidence needed to substantiate it. Do not introduce every project or expand each into an account of what the candidate did. If only one strong example exists, use one rather than filling a second slot.
+
 ## Fill evidence gaps only when necessary
 
 Use the profile and evidence already available. When they support the letter, proceed without asking further experience questions. If a material gap remains, ask a focused question. When the experience is documented but the candidate's individual strength is unclear, ask which decision, responsibility, or result best shows what they did well. Follow up only as needed to support a material claim.
@@ -68,6 +74,8 @@ Before drafting, formulate two working sentences. One states why the candidate w
 Use the same strongest verified evidence in both options. Vary tone, narrative, or secondary strengths. For example, a candidate who improved sign-up information while volunteering could open one version with the role's public-information task and the other with what the volunteer experience taught them about accessible information.
 
 Compare each draft with the resume if available. Check that the opening explains the candidate's confirmed interest in the role at this employer and that the body explains what a personal strength lets them contribute. Condense passages that only repeat resume details. Use concise sentences and the candidate's own examples. Check the employer name, contact, title, reference number, confirmed dates, interview invitation, signature and enclosure conventions, readability, and removal of placeholders.
+
+Before presenting either option, verify that its motivation preserves the candidate's own meaning, its body contains at most one or two strongly relevant examples, and each example establishes a capability and its fit with a specific role requirement. Remove project inventories, weak matches, and task-by-task retellings of the resume.
 
 ## Sources
 
